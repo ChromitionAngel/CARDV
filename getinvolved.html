@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>CARDV</title>
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+        <link href="/scirpts.js">
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+            }
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+        <script>
+            $(document).ready(function(){
+                $('[data-toggle="tooltip"]').tooltip();   
+            });
+        </script>
+    </head>
+
+    <body>
+        <!-- HEADER AND NAVBAR -->
+        <header id="header"> 
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3 hidden-sm hidden-xs">
+                        <div class="row">
+                            <div class="col-md-12" style="padding-left: 45px;">
+                                <img src="https://res.cloudinary.com/milessmith/image/upload/v1497908408/whitebar_wumil4.png" alt="whitebar">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a href="index.html">CARDV</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-xs-12 hidden-md hidden-lg" style="padding-left: 0px; padding-right: 0px;"> <!-- Mobile stuff you should definitely look at.-->
+                        <ul class="list list-inline" style="margin-bottom: 0px;">
+                            <li class="pull-xs-left"style="padding-left:0px;"><a href="index.html">CARDV </a></li>
+                            <li class="hidden-xs" style="margin-left: 50px;"><button class="btn" id="donate">donate</button></li>
+                            <li class="hidden-xs" style="margin-left: 50px;"><button class="btn" id="escape">escape </button></li>
+                            <li class="pull-xs-right" style="float: right;">
+                                <div id="mySidenav" class="sidenav">
+                                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                    <a href="/CARDV/about.html">ABOUT</a>
+                                    <a href="#">get help</a>
+                                    <a href="#">get info</a>
+                                    <a href="#">get involved</a>
+                                    <a href="/CARDV/contact.html">contact</a>
+                                    <br>
+                                    <button class="btn" id="donate">donate</button>
+                                    <button class="btn" id="escape">escape <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span></button>
+                                </div>
+                                <span style="font-size:30px;cursor:pointer" onclick="openNav()"> menu &#9776; </span>
+                            </li>
+                        </ul>
+                    </div> 
+                    <div class="col-md-9 hidden-sm hidden-xs">
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-2">
+                                <ul class="list list-inline" id="HBtnList">
+                                    <li>
+                                        <h4>24 hour hotline</h4>
+                                        <a href="tel:800-927-0197"><h3>800-927-0197</h3></a>
+                                    </li>
+                                    <li><a><button class="btn" id="donate">donate</button></a></li>
+                                    <li><a><button data-toggle="tooltip" data-placement="left" title="Press Ctrl-w to exit a page and Press Ctrl-n to open a new one" class="btn" id="escape">escape <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span></button></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <nav class="navbar-default nav-fixed-top">
+                            <div class="navbar">
+                                <ul class="nav navbar-nav">
+                                    <li>
+                                        <div class="dropdown" style="float:right;padding-top: 10px;">
+                                            <a class="dropbtn" href="about.html">ABOUT</a>
+                                            <div class="dropdown-content green0" style="left:0;">
+                                                <a class="green0" href="/CARDV/about.html#WWW">Who we are</a>
+                                                <a class="green0" href="/CARDV/about.html#story">Our Story</a>
+                                                <a class="green0" href="/CARDV/about.html#AboutHelp">How We Help</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="dropdown" style="float:right;padding-top: 10px;">
+                                            <a class="dropbtn" href="/CARDV/gethelp.html">GET HELP</a>
+                                            <div class="dropdown-content red0" style="left:0; color: red;">
+                                                <a class="red0" href="#">Link 1</a>
+                                                <a class="red0" href="#">Link 2</a>
+                                                <a class="red0" href="#">Link 3</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="dropdown" style="float:right;padding-top: 10px;">
+                                            <a class="dropbtn">GET INFO</a>
+                                            <div class="dropdown-content" style="left:0;">
+                                                <a class="red0" href="#">Link 1</a>
+                                                <a class="red0" href="#">Link 2</a>
+                                                <a class="red0" href="#">Link 3</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="dropdown" style="float:right;padding-top: 10px;">
+                                            <a class="dropbtn">GET INVOLVED</a>
+                                            <div class="dropdown-content" style="left:0;">
+                                                <a class="green0" href="#">Link 1</a>
+                                                <a class="green0" href="#">Link 2</a>
+                                                <a class="green0" href="#">Link 3</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="dropdown" style="float:right;padding-top: 10px;">
+                                            <a class="dropbtn" href="contact.html">CONTACT</a>
+                                            <div class="dropdown-content" style="right:0;">
+                                                <a class="red0" href="/CARDV/contact.html#ContactHead">Get Connected Now</a>
+                                                <a class="red0" href="/CARDV/contact.html#ContactMaps">Maps</a>
+                                                <a class="red0" href="/CARDV/contact.html#ContactEmail">Email Us</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        
+        <div id="GetInvolvedMain">
+            <div class="container-fluid">
+                <div class="row">
+                    <p>Get Involed</p>
+                </div>    
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    
+        <!-- FOOTER AREA -->
+        
+        <footer id="footer">
+            <div class="container-fluid">
+                <div class="row"> <!-- On line 82 (and around there) is code for it do change the float and text alignment of the footer areas, but it isn't actually doing it. Not sure why... -->
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <h2>about us</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus pharetra auctor. Curabitur vel pharetra risus, ut facilisis ipsum. Nam ut tortor vitae nisl facilisis dictum. Aenean id mi eros. Pellentesque cursus dolor in porta lacinia.
+            Maecenas non suscipit nisl, ut mollis justo.</p>
+                        <button class="btn btn-learn"><a>learn more</a></button>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <h3>connect with us</h3>
+                        <ul class="list list-inline">
+                            <li>
+                                <a href="https://google.com"><img src="images/FB-logo.svg"  alt="Facebook link"></a>
+                            </li>
+                            <li>
+                                <a href="https://google.com"><img src="images/TW-logo.svg" alt="Twitter Link"></a>
+                            </li>
+                            <li>
+                                <a href="https://google.com"><img src="images/Mail-logo.svg" alt="Email Link"></a>
+                            </li>
+                        </ul>
+                        <h3>our supporters</h3>
+                        <a href="google.com"><img src="https://res.cloudinary.com/milessmith/image/upload/v1497908407/PK-logo_wnf4ub.png" id="pk"></a>
+                    </div>
+                    <div class="col-md-5 col-sm-6 col-xs-12">
+                        <ul class="list list-inline">
+                            <li><button class="btn" id="donate">donate</button></li>
+                            <li><button class="btn" id="escape">escape <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span></button></li>
+                        </ul>
+                        <h4>24-hour hotline</h4>
+                        <a href="tel:800-927-0197"><h2>800-927-0197</h2></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+    
+    </body>
+</html>

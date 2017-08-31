@@ -1,0 +1,910 @@
+/* Custom Styles*/
+
+.red0 {
+    color: red;
+}
+.green0 {
+    color: green;
+}
+.lg-p {
+    font-size: 32px;
+}
+.md-p {
+    font-size: 24px;
+}
+.btn-run {
+  background-color: rgba(144, 240, 249, 0.61);
+  height: auto;
+  width: 25%;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 20;
+  border-radius: 0px;
+  padding: 0px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+.btn-signup {
+  background-color: green;
+  width: 100%;
+  height: auto;
+  z-index: 30;
+  border-radius: 0px;
+  vertical-align: middle;
+}
+
+.btn-run h1 {
+  color: black;
+  margin: 0px;
+}
+
+.btn-run h3 {
+  color: black;
+}
+
+.btn-run h2 {
+  color: green;
+}
+
+.btn-run .btn-signup a h2 {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-run .btn-signup a:hover {
+  text-decoration: none;
+}
+#donate {
+    background: green;
+    background-image: none;
+    font-size: 24px;
+    text-transform: uppercase;
+    border-radius: 0px;
+    height: 50px;
+    width: 100%;
+}
+#escape {
+    background: red;
+    background-image: none;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-transform: uppercase;
+    border-radius: 0px;
+    height: 50px;
+    width: 100%;
+}
+#HBtnList li {
+  color: white;
+  font-size: 24px;
+  margin: 0px;
+  margin-top: 30px;
+  z-index: 30;
+    vertical-align: bottom;
+  text-align: right;
+}
+
+#HBtnList li a {
+  color: white;
+  z-index: 30;
+}
+.btn-help {
+  text-transform: uppercase;
+  background-color: white;
+  font-size: 24px;
+  padding: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 0px;
+  color: red;
+  margin-left: 30px;
+}
+
+.line-part {
+    background-color: rgba(229, 218, 218, 0.52);
+    height: 5px;
+    width: 30%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.btn-learn {
+  background-color: white;
+  font-size: 24px;
+  border-radius: 0px;
+  height: 50px;
+  width: 200px;
+  z-index: 30;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: black;
+}
+/* body attr. */
+
+* {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.glyphicon {
+  vertical-align: top;
+}
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .85); /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 40px; /* Place content 60px from the top */
+    transition: 0.6s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 30px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav button {
+    margin-left: 0px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+/* carousel */
+
+.carousel-caption {
+  z-index: 20;
+  margin-bottom: 10%;
+  margin-left: 35%;
+}
+
+#gallery-carousel {
+  height: auto;
+  width: auto;
+  margin-top: 0px;
+}
+
+.carousel-inner {
+  z-index: -1;
+  width: 100%;
+}
+
+.carousel-inner img {
+  width: 100%;
+  max-width: 100%;
+}
+
+#gallery-carousel a {
+  height: auto;
+  margin: auto;
+}
+
+
+
+
+
+/* navbar and header */
+#header .sidenav button {
+    margin-left: 0px;
+}
+#header col-sm-12 li button {
+  font-size: 24px;
+  border-radius: 0px;
+  height: 50px;
+  width: 100%;
+  z-index: 30;
+  margin-bottom: 10px;
+}
+
+
+#header .col-md-3 a {
+  font-size: 44px;
+  color: white;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+    padding-left: 30px;
+}
+
+#header .col-md-12 {
+  z-index: 20;
+}
+#header .col-md-12 a {
+  font-size: 44px;
+  color: white;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+#header .col-md-12 a:hover {
+  font-style: none;
+  background-image: none;
+}
+#header .col-sm-12 {
+  z-index: 20;
+}
+#header .col-sm-12 a {
+  font-size: 44px;
+  color: white;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+#header .col-sm-12 a:hover {
+  font-style: none;
+  background-image: none;
+}
+#header li {
+    text-transform: uppercase;
+    z-index: 30;
+}
+#header .col-md-10 {
+  float: right;
+}
+
+#header .col-md-10 ul {
+  float: right;
+  padding-left: 10px;
+}
+
+#header .col-md-12 a:hover {
+  font-style: none;
+  background-image: none;
+}
+
+.navbar-default {
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: none;
+    -webkit-box-shadow: none; 
+    box-shadow: none; 
+}
+.navbar-default ul {
+    float: right;
+}
+
+.dropbtn {
+    padding: 0px 0px 0px 25px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: #777;
+}
+
+
+
+#header {
+  display: block;
+  color: white;
+  background-color: rgba(0, 3, 1, 0.7);
+  z-index: 20;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#header img {
+  height: 50px;
+  width: 130px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+
+
+
+#header h3 {
+  color: white;
+  margin-top: 0px;
+}
+
+#header .col-md-9 {
+  z-index: 20;
+}
+
+
+
+/* get help */
+
+#gethelp {
+  background-color: red
+}
+#gethelp .col-md-12 {
+    padding-top: 2%;
+}
+#gethelp #regres ul {
+    display: inline-block;
+}
+#gethelp .col-sm-6 {
+    padding-bottom: 20px;
+    vertical-align: middle;
+    align-content: center;
+}
+#gethelp .col-20 {
+  width: 19.5%;
+  text-transform: uppercase;
+  color: white;
+  height: 100px;
+  vertical-align: bottom;
+  font-size: 24px;
+}
+#gethelp .col-20 .btn {
+    color: red;
+}
+.col-20 a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+#gethelp .col-20 a:hover {
+  color: black;
+}
+#gethelp .dropdown-menu {
+    text-transform: uppercase;
+}
+#gethelp .row {
+    vertical-align: middle;
+}
+
+
+
+
+/*news*/
+#news .col-md-4 {
+  text-transform: uppercase;
+}
+
+#news img {
+  width: 75%;
+  height: 100%;
+  margin-top: 0px;
+  padding-left: 35px;    
+}
+
+#news h3 {
+  color: green;
+    padding-left: 35px; 
+}
+
+#news #newsrw2 h3 {
+  color: black;
+  padding: 0px;
+  letter-spacing: normal;
+}
+
+#news .hr {
+  width: 100%;
+  height: 5px;
+  background-color: rgba(229, 218, 218, 0.52);
+  margin-top: 30px;
+  float: left;
+}   
+
+
+/* stats */
+
+#stats {
+  background-color: purple;
+  color: white;
+  padding: 40px;
+}
+
+#stats .col-md-4 {
+  text-align: center;
+  text-transform: capitalize;
+  padding-left: 50px;
+  padding-right: 60px;
+  margin: 0px;
+}
+
+
+box-shadow: #a71d11 0 3px 0px, rgba(0, 0, 0, 0.3) 0 3px 3px;
+/* mission statement*/
+
+#mission {
+  background-color: white;
+  padding: 40px 20px;
+}
+#mission .col-md-6 h2 {
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+#mission li {
+    font-size: 24px;
+}
+ #mission p {
+    font-size: 24px;
+}
+
+
+
+/* opportunities */
+#opportunities {
+  padding: 30px;
+  background-color: green;
+    color: white;
+    text-transform: uppercase;
+}
+#opportunities ul {
+    list-style-type:  none;
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 0px;
+}
+#opportunities .col-lg-12 {
+    text-align: center
+}
+#opportunities .col-sm-10 li {
+    margin: 30px;
+}
+#opportunities .col-sm-10 img {
+  width: 20%;
+  float: right;
+}
+#opportunities .col-md-4 {
+  padding-left: 0px;
+  margin-bottom: 40px;
+}
+#opportunities a{
+    color: black;
+}
+#opportunities .col-md-4 img {
+  width: 30%;
+  height: 30%;
+  padding: 5px;
+  padding-left: 15px;
+}
+#opportunities .col-md-4 a {
+  text-transform: uppercase;
+  color: white;
+  margin-left: 15%;
+}
+
+#opportunities .col-md-4 a:hover {
+  text-decoration: none;
+}
+
+
+
+/* footer */
+
+#footer {
+  background-color: rgba(0, 0, 0, 0.76);
+  padding: 20px;
+}
+
+#footer .col-md-4 {
+  text-align: left;
+  color: white;
+  padding-left: 60px;
+  padding-right: 90px;
+}
+
+#footer .col-md-4 h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+#footer a {
+    color: black;
+}
+
+#footer .col-md-3 {
+  text-align: center;
+  align-content: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+#footer .col-md-3 img {
+  height: 40px;
+  width: 40px;
+}
+
+#footer .col-md-3 #pk {
+  height: 55px;
+  width: 120px;
+}
+
+#footer .col-md-5 {
+  text-align: right;
+  padding: 30px;
+  padding-right: 120px;
+}
+
+#footer .col-md-5 ul a {
+  color: white;
+}
+
+#footer .col-md-5 a h2 {
+  padding-top: 0px;
+  color: white;
+}
+
+#footer .col-md-5 h4 {
+  padding-bottom: 0px;
+  color: white;
+}
+
+
+
+
+@media (max-width: 1255px){
+    #opportunities .col-md-4 a {
+        font-size: 20px;
+    }    
+}
+@media (max-width: 1068px){
+    #header nav li a {
+        font-size: 19px;
+    }
+    #header .col-sm-12 li a {
+        align-content: center;
+        font-size: 32px;
+    }
+}
+@media (max-width: 992px) {
+    #header row {
+        padding: 0px;
+    }
+    #gallery-carousel .carousel-inner {
+        margin-top: -200px;
+        z-index: -1;
+        width: 100%;
+        align-content: center;
+    }
+    #gallery-carousel .carousel-inner img {
+        height: 100%;
+        width: 100%;
+        margin-top: 200px;
+        align-content: center;
+    }
+    #gallery-carousel .carousel-inner .btn {
+        display: none;
+    }
+    #carousel-indicators{
+        margin-top: -250px;
+    }
+    #gethelp .col-20 {
+        display: none;
+    }
+    #gethelp .col-md-12{
+        padding-top: 0px;
+    }
+    #gethelp .btn-group {
+        height: 100%;
+        width: auto;
+    }
+    #gethelp #info .btn{
+        padding: 18px 16px;
+        color: black;
+        background-color: white;
+        font-size: 20px;
+    }
+    #mission .col-md-6 {
+        padding: 20px 30px;
+        font-size: 26px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    #mission iframe {
+        width: 100%;
+    }
+    #news .hr {
+        width: 100%;
+        vertical-align: baseline;
+    }
+    #news img {
+        width: 70%;
+    }
+    #news .col-md-4 {
+        align-content: center;
+    }
+    #opportunities h2 {
+        color: white;
+        line-height: 80%;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 60px;
+    }
+    #footer .col-md-4 {
+        float: left;
+        text-align: left;
+        padding-left: 40px;
+    }
+    #footer .col-md-4 {
+        float: left;
+        text-align: left;
+    }
+    #footer .col-md-3{
+        text-align: left;   
+    }
+    #footer .col-sm-6 {
+        text-align: left;   
+    }
+    #footer .col-xs-12 {
+        text-align: left;
+        padding-left: 40px;
+    }
+}
+@media (max-height: 500px){
+    #gethelp .col-sm-6 {
+        padding: 16px 20px;
+    }
+    #news img {
+        width: 100%;
+    }
+    
+}
+@media (max-height: 745px) {
+    #opportunities .col-sm-10 img {
+        float: none;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    #header .sidenav button {
+        margin-left: 0px;
+    }
+}
+@media (max-width: 395px) {
+    #gethelp #info .btn{
+        padding: 10px 10px;
+    }
+    #gethelp .btn-group {
+        height: 80%;
+        width: 30%;
+    }
+}
+
+
+
+/* ABOUT PAGE*/
+
+#AboutMain {
+    background-image: url(images/castle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 450px 0px 200px 0px;
+    text-decoration: bold;
+    margin-top: -200px;
+    z-index: 1;
+    color: white;
+    font-size: 24px;
+    height: 800px;
+}
+#AboutMain row {
+   z-index: -1; 
+}
+#WWW {
+    align-content: center;
+    text-align: center;
+}
+#WWW img {
+    width: 50%;
+    height: auto;
+}
+#WWW button {
+    width: 90%;
+    height: 40px;
+    background-image: none;
+    background-color: none;
+    font-size: 24px;
+}
+#WWW .btn { 
+    background-color: #C9FFE5;
+}
+#WWW .collapseDescription {
+    display: none;
+}
+#story .col-md-10 {
+    text-align: center;
+    margin-top: 50px;
+    align-content: center;
+}
+#story h1 {
+    background-color: dodgerblue;
+    border-radius: 10px;
+    padding: 20px 0px;
+    width: 100%;
+    color: black;
+}
+#story .col-md-12 {
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+#story .col-lg-5 img{
+    width: 60%;
+}
+#story .col-lg-5 {
+    align-content: center;
+}
+
+#AboutHelp {
+    background-color: red;
+}
+#AboutHelp .col-lg-12 {
+    text-align: center;
+    color: white;
+}
+#AboutHelp .col-lg-5 h2{
+    text-align: center;
+    color: white;
+}
+#AboutHelp .col-lg-5 p {
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+
+
+
+/* CONTACT PAGE */
+#ContactHead {
+    background-image: url(images/community.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 500px 0px 200px 0px;
+    margin-top: -260px;
+    z-index: -1;
+    color: white;
+    height: 800px;
+}
+#ContactHead p {
+    font-size: 72px;
+}
+#ContactHelp { 
+    color: black;
+    background-color: red;
+    text-align: left;
+    padding: 30px 0px 30px 0px;
+}
+#ContactHelp b {
+    color: white;
+}
+#ContactHelp p {
+    font-size: 28px;
+}
+#ContactHelp a {
+    text-decoration: none;
+    color: white;
+}
+#ContactHelp a:hover {
+    text-decoration: none;
+    color: black;
+}
+#ContactMaps  .col-lg-8 {
+    margin-top: 50px;
+}
+#ContactMaps  .col-lg-4 h1 {
+    margin-top: 50px;
+}
+#ContactMaps  .col-lg-4 p {
+    font-size: 18px;
+}
+/* API key form google maps AIzaSyAcvHdgXFxc7IPc6iTGK92D_kbeY8yQjJw */
+#ContactEmail .col-lg-6 p a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+#ContactEmail .col-lg-6 form {
+    color: black;
+    font-size: 24px;
+}
+#ContactEmail #messageInput {
+    width: 100%;
+    background-color: green;
+    text-align: center;
+    border-color:darkgreen;
+    margin: 5px 0px 15px 0px;
+}
+
+
+#GetHelpMain {
+    background-image: url(images/gethelp1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 450px 0px 200px 0px;
+    margin-top: -260px;
+    z-index: -1;
+    color: white;
+}
+ .boxed {
+    border: 4px solid black;
+     width: 50%;
+     align-content: center;
+}
+#GetHelpMain #headp {
+    font-size: 52px;
+}
+#GetHelpContacts .col-lg-4 {
+    text-align: center;
+    align-content: center;
+    margin: 30px 0px 30px 0px;
+}
+#GetHelpLinks .col-lg-6 {
+    background-color: red;
+}
+#GetHelpLinks .col-lg-6 p {
+    font-size: 36px;
+}
+
+
+
+#GetInvolvedMain {
+    background-image: url(images/getinvolved.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 350px 0px 200px 0px;
+    margin-top: -260px;
+    z-index: -1;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
