@@ -13,9 +13,9 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
         <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-        <link href="/scirpts.js">
+        <link href="../Js/scirpts.js">
         <script>
             function openNav() {
                 document.getElementById("mySidenav").style.width = "250px";
@@ -23,12 +23,8 @@
             function closeNav() {
                 document.getElementById("mySidenav").style.width = "0";
             }
-            $(".iconW").click(function(){
-                $(this).find(".collapseDescription").slideToggle(200);
-                $(this).siblings().each(function(i,v){
-                    $(v).find(".collapseDescription").slideUp(200);
-                });
-            });
+        </script>
+        <script>
             $(document).ready(function(){
                 $('[data-toggle="tooltip"]').tooltip();   
             });
@@ -48,22 +44,22 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <a href="index.html">CARDV</a>
+                                <a href="../index.html">CARDV</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-xs-12 hidden-md hidden-lg" style="padding-left: 0px; padding-right: 0px;"> <!-- Mobile stuff you should definitely look at.-->
                         <ul class="list list-inline" style="margin-bottom: 0px;">
-                            <li class="pull-xs-left"style="padding-left:0px;"><a href="index.html">CARDV </a></li>
+                            <li class="pull-xs-left"style="padding-left:0px;"><a href="../index.html">CARDV</a></li>
                             <li class="hidden-xs" style="margin-left: 50px;"><button class="btn" id="donate">donate</button></li>
                             <li class="hidden-xs" style="margin-left: 50px;"><button class="btn" id="escape">escape </button></li>
                             <li class="pull-xs-right" style="float: right;">
                                 <div id="mySidenav" class="sidenav">
                                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                                    <a href="/CARDV/about.html">ABOUT</a>
-                                    <a href="#">get help</a>
+                                    <a href="../CARDV/pages/about.html">ABOUT</a>
+                                    <a href="../CARDV/pages/gethelp.html">get help</a>
                                     <a href="#">get info</a>
-                                    <a href="#">get involved</a>
+                                    <a href="../CARDV/pages/getinvolved.html">get involved</a>
                                     <a href="/CARDV/contact.html">contact</a>
                                     <br>
                                     <button class="btn" id="donate">donate</button>
@@ -91,17 +87,17 @@
                                 <ul class="nav navbar-nav">
                                     <li>
                                         <div class="dropdown" style="float:right;padding-top: 10px;">
-                                            <a class="dropbtn" href="about.html">ABOUT</a>
+                                            <a class="dropbtn" href="../pages/about.html">ABOUT</a>
                                             <div class="dropdown-content green0" style="left:0;">
-                                                <a class="green0" href="/CARDV/about.html#WWW">Who we are</a>
-                                                <a class="green0" href="/CARDV/about.html#story">Our Story</a>
-                                                <a class="green0" href="/CARDV/about.html#AboutHelp">How We Help</a>
+                                                <a class="green0" href="../pages/about.html#WWW">Who we are</a>
+                                                <a class="green0" href="../pages/about.html#story">Our Story</a>
+                                                <a class="green0" href="../pages/about.html#AboutHelp">How We Help</a>
                                             </div>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="dropdown" style="float:right;padding-top: 10px;">
-                                            <a class="dropbtn" href="/CARDV/gethelp.html">GET HELP</a>
+                                            <a class="dropbtn" href="../pages/gethelp.html">GET HELP</a>
                                             <div class="dropdown-content red0" style="left:0; color: red;">
                                                 <a class="red0" href="#">Link 1</a>
                                                 <a class="red0" href="#">Link 2</a>
@@ -111,7 +107,7 @@
                                     </li>
                                     <li>
                                         <div class="dropdown" style="float:right;padding-top: 10px;">
-                                            <a class="dropbtn">GET INFO</a>
+                                            <a class="dropbtn" href="#">GET INFO</a>
                                             <div class="dropdown-content" style="left:0;">
                                                 <a class="red0" href="#">Link 1</a>
                                                 <a class="red0" href="#">Link 2</a>
@@ -121,7 +117,7 @@
                                     </li>
                                     <li>
                                         <div class="dropdown" style="float:right;padding-top: 10px;">
-                                            <a class="dropbtn">GET INVOLVED</a>
+                                            <a class="dropbtn" href="../pages/getinvolved.html">GET INVOLVED</a>
                                             <div class="dropdown-content" style="left:0;">
                                                 <a class="green0" href="#">Link 1</a>
                                                 <a class="green0" href="#">Link 2</a>
@@ -131,11 +127,11 @@
                                     </li>
                                     <li>
                                         <div class="dropdown" style="float:right;padding-top: 10px;">
-                                            <a class="dropbtn" href="contact.html">CONTACT</a>
+                                            <a class="dropbtn" href="../pages/contact.html">CONTACT</a>
                                             <div class="dropdown-content" style="right:0;">
-                                                <a class="red0" href="/CARDV/contact.html#ContactHead">Get Connected Now</a>
-                                                <a class="red0" href="/CARDV/contact.html#ContactMaps">Maps</a>
-                                                <a class="red0" href="/CARDV/contact.html#ContactEmail">Email Us</a>
+                                                <a class="red0" href="../pages/contact.html#ContactHead">Get Connected Now</a>
+                                                <a class="red0" href="../pages/contact.html#ContactMaps">Maps</a>
+                                                <a class="red0" href="../pages/contact.html#ContactEmail">Email Us</a>
                                             </div>
                                         </div>
                                     </li>
@@ -148,131 +144,119 @@
         </header>
         
         
-        <div id="AboutMain">
-            <div class="container-fluid">
+        <div id="ContactHead">
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
-                        <h1>About Us</h1>
-                        <br>
-                        <p><b>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-diam nonummy nibh euismod tincidunt ut laoreet dolore</b></p>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <p>Conact Us Today</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="ContactHelp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <p style="font-size: 48px;">CARDV is here to help <b>you</b></p>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                        <p>All CARDV services are free and confidential. If you have questions about any of our services or need help, call our 24-hour hotline or our local offices.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="text-align: center; text-decoration: none;">
+                        <h2>24-hour Hotline</h2>
+                        <a href="tel:800-927-0197"><h2>800-927-0197</h2></a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="text-align: center; text-decoration: none;">
+                        <h2>Local Number</h2>
+                        <a href="tel:800-927-0197"><h2>800-927-0197</h2></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="ContactMaps">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-4 hidden-lg hidden-md">
+                        <h1>Aministrative Office</h1>
+                        <p>4786 SW Philomath Blvd.<br>Corvallis, OR 97333<br>Phone: 541-758-0219<br>Fax: 541-758-8458
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-md-8">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m22!1m12!1m3!1d90981.09748052401!2d-123.37500799652899!3d44.55284369800134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m7!3e6!4m0!4m4!1s0x54c0474872b2bdad%3A0x1e5aa38157c6a4ad!3m2!1d44.5528651!2d-123.30496819999999!5e0!3m2!1sen!2sus!4v1501617495896" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
+                        <h1>Aministrative Office</h1>
+                        <p>4786 SW Philomath Blvd.<br>Corvallis, OR 97333<br>Phone: 541-758-0219<br>Fax: 541-758-8458
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-sm-12 col-xs-4 hidden-lg hidden-md">
+                        <h1>Aministrative Office</h1>
+                        <p>4786 SW Philomath Blvd.<br>Corvallis, OR 97333<br>Phone: 541-758-0219<br>Fax: 541-758-8458
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 hidden-sm hidden-xs" style="text-align: right;">
+                        <h1>Advocacy Center</h1>
+                        <p>2208 SW 3rd St.<br>Corvallis, OR 97333<br>Phone: 541-738-8319<br>Fax: 541-738-8323
+                        </p>
+                    </div>
+                    <div class="col-lg-8 col-md-8">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m22!1m12!1m3!1d90981.09748052401!2d-123.37500799652899!3d44.55284369800134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m7!3e6!4m0!4m4!1s0x54c0474872b2bdad%3A0x1e5aa38157c6a4ad!3m2!1d44.5528651!2d-123.30496819999999!5e0!3m2!1sen!2sus!4v1501617495896" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
         </div>
         <br>
         
-        <div id="WWW">
+        <div id="ContactEmail">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                        <h1>Who We Are</h1>
-                        <hr class="hr" style="border-color: green;">
-                        <img src="images/cardvmain.jpg" alt="Who CARDV is" role="button" href="#collapseExample">
-                        <button class="btn iconW">
-                            <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
-                        </button>
+                    <div class="col-lg-6 col-md-8 col-sm-6 col-xs-12">
+                        <h1>Email Us Here</h1>
+                        <p><a>cardv@gmail.com</a></p>
                     </div>
-                    <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                        <h1>What We Are</h1>
-                        <hr class="hr" style="border-color: green;">
-                        <img src="images/cardvmain.jpg" alt="Who CARDV is" role="button" href="#collapseExample1">
-                        <button class="btn">
-                            <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
-                        </button>
-                    </div>
-                    <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                        <h1>Where We Are</h1>
-                        <hr class="hr" style="border-color: green;">
-                        <img src="images/cardvmain.jpg" alt="Who CARDV is" role="button" href="#collapseExample2">
-                        <button class="btn">
-                            <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
-                        </button>
-                    </div>
-                    <div class="container collapseDescription">
-                            <div class="row">
-                                <div class="col-lg-12 col-md-12">
-                                   <p>daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus </p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-8 col-sm-6 col-xs-12">
+                        <form action="mailto:miles.smith010@gmail.com" method="post" enctype="text/plain">
+                            <div class="input-group input-group-lg" style="width: 100%;">
+                                <input type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1">
                             </div>
-                        </div>
-                    </div>
-                    <div class="container collapseDescription">
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12">
-                               <p>daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus </p>
+                            <br>
+                            <div class="input-group input-group-lg" style="width: 100%;">
+                                <input type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon1">
                             </div>
-                        </div>
-                    </div>
-                    <div class="container collapseDescription">
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12">
-                                <p>daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus daddy-the-platapus </p>
+                            <br>
+                            <div class="input-group input-group-lg" style="width: 100%;">
+                                <input type="text" class="form-control" placeholder="Subject" aria-describedby="basic-addon1">
                             </div>
-                        </div>
+                            <br>
+                            <div class="form-grou input-group-lg">
+                                <textarea class="form-control" rows="5" id="comment" placeholder="Message"></textarea>
+                            </div>
+                            <input id="messageInput" type="submit" value="SEND MESSAGE">
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
-        
-        <!--story time-->
-        <div id="story">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 col-sm-12 col-xs-12">
-                        <h1>Our Story</h1>                 
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat <p>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-5">
-                        <img class="img center-block" src="images/download.jpg" alt="testimg">
-                    </div>
-                    <div class="col-lg-5 col-lg-offset-2">
-                        <img class="img center-block" src="images/download.jpg" alt="testimg">
-                    </div>
-                </div>
-                <!-- img slide show?? work on later with col-sm- and col-xs-  -->
-                <br>
-                <div class="row">
-                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                        <p>Lorem ipsum dolonsectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt  amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut lut laoreet dolore magna aliquam erat volutpat. Utolor sitaoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, qu scllam commodo consequat. Duis autem vel x ea commodo consequat. Lorem ipsum corper  nsu lobortis nisl ut aliquip e lobortis nisl ut aliquip ex eadisostrud eipitwisi enim ad minim veniam, quis nostrud exerci tation uxerci tation ullamcorper suscipiteum iriure dolor in hendrerit in vulputate velit esse molestie consequat <p>
-                    </div>
-                </div>
-                <br>
-            </div>
-        </div>
-        
-        <!-- We can help -->
-        <div id="AboutHelp">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h1>We Can Help</h1>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-5">
-                        <h2>What to do</h2>
-                        <br>
-                        <p>Lorem ipsum dolonsectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt  amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut lut laoreet dolore magna aliquam erat volutpat. Utolor sitaoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, qu scllam commodo consequat. Duis autem vel x ea commodo consequat. Lorem ipsum corper  nsu lobortis nisl ut aliquip e lobor</p>
-                    </div>
-                    <div class="col-lg-5 col-lg-offset-2">
-                        <h2>How we help</h2>
-                        <br>
-                        <p>Lorem ipsum dolonsectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt  amet, consectetuer adipiscing elit, sed diam nonummy nibh euism veniam, qu scllam commodo consequat. Duis autem vel x ea commodo consequat. Lorem ipsum corper  nsu lobortis nisl ut aliquip e lobor</p>
-                    </div>
-                </div>
-            </div>
-            <br>
-        </div>        
+        <br>
         
         
+                
         <!-- FOOTER AREA -->
         
         <footer id="footer">
@@ -288,13 +272,13 @@ diam nonummy nibh euismod tincidunt ut laoreet dolore</b></p>
                         <h3>connect with us</h3>
                         <ul class="list list-inline">
                             <li>
-                                <a href="https://google.com"><img src="images/FB-logo.svg"  alt="Facebook link"></a>
+                                <a href="https://google.com"><img src="../images/FB-logo.svg"  alt="Facebook link"></a>
                             </li>
                             <li>
-                                <a href="https://google.com"><img src="images/TW-logo.svg" alt="Twitter Link"></a>
+                                <a href="https://google.com"><img src="../images/TW-logo.svg" alt="Twitter Link"></a>
                             </li>
                             <li>
-                                <a href="https://google.com"><img src="images/Mail-logo.svg" alt="Email Link"></a>
+                                <a href="https://google.com"><img src="../images/Mail-logo.svg" alt="Email Link"></a>
                             </li>
                         </ul>
                         <h3>our supporters</h3>

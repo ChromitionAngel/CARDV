@@ -713,7 +713,7 @@ box-shadow: #a71d11 0 3px 0px, rgba(0, 0, 0, 0.3) 0 3px 3px;
 /* ABOUT PAGE*/
 
 #AboutMain {
-    background-image: url(images/castle.jpg);
+    background-image: url(../images/castle.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -794,7 +794,7 @@ box-shadow: #a71d11 0 3px 0px, rgba(0, 0, 0, 0.3) 0 3px 3px;
 
 /* CONTACT PAGE */
 #ContactHead {
-    background-image: url(images/community.png);
+    background-image: url(../images/community.png);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -856,7 +856,7 @@ box-shadow: #a71d11 0 3px 0px, rgba(0, 0, 0, 0.3) 0 3px 3px;
 
 
 #GetHelpMain {
-    background-image: url(images/gethelp1.png);
+    background-image: url(../images/gethelp1.png);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -888,7 +888,7 @@ box-shadow: #a71d11 0 3px 0px, rgba(0, 0, 0, 0.3) 0 3px 3px;
 
 
 #GetInvolvedMain {
-    background-image: url(images/getinvolved.png);
+    background-image: url(../images/getinvolved.png);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
