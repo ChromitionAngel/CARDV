@@ -917,6 +917,44 @@ box-shadow: #a71d11 0 3px 0px, rgba(0, 0, 0, 0.3) 0 3px 3px;
     color: white;
     text-decoration: none;
 } 
+.infoHead {
+    text-align: center;
+    vertical-align: middle;
+    padding: 100px 0px 100px 0px;
+    color: black;
+    text-decoration: underline;
+}
+.infoDrop {
+    color: black;
+    text-align: center;
+}
+.infoButton {
+    width: 100%;
+    background-color: white;
+    font-size: 32px;
+    border-color: black;
+}
+.description{
+    display: none;
+}
+#GetInvolvedVolunteer .infoHead {
+    background-image: url(../images/community.png)
+}
+#GetInvolvedDonate .infoHead {
+    background-image: url(../images/contact-us1.jpg)
+}
+#GetInvolvedEvents .infoHead {
+    background-image: url(../images/community.png)
+}
+#GetInvolvedKind .infoHead {
+    background-image: url(../images/community.png)
+}
+#GetInvolvedJobs .infoHead {
+    background-image: url(../images/community.png)
+}
+#GetInvolvedMerch .infoHead {
+    background-image: url(../images/community.png)
+}
 
 
 
