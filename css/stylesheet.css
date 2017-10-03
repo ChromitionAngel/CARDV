@@ -937,32 +937,54 @@ box-shadow: #a71d11 0 3px 0px, rgba(0, 0, 0, 0.3) 0 3px 3px;
     text-align: center;
 }
 .infoButton {
-    width: 100%;
+    width: 50%;
     background-color: white;
     font-size: 32px;
-    border-color: black;
+    background-color: mediumaquamarine;
+    box-shadow: none;
+    margin-top:-83px;
 }
 .description{
     display: none;
 }
-#GetInvolvedVolunteer .infoHead {
-    background-image: url(../images/volunteering.jpg)
+
+#GetInvolvedVolunteer {
+    background-image: url(../images/volunteering.jpg);
+    height: 500px;
+    vertical-align: middle;
+    text-align: center;
 }
-#GetInvolvedDonate {
+#GetInvolvedDonate .infoHead{
     background-image: url(../images/doantion.jpg);
-    height: auto;
+    height: 500px;
+    vertical-align: middle;
+    text-align: center;
 }
 #GetInvolvedEvents .infoHead {
-    background-image: url(../images/community.png);
+    background-image: url(../images/run.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    vertical-align: middle;
+    text-align: center;
 }
 #GetInvolvedKind .infoHead {
-    background-image: url(../images/community.png);
+    background-image: url(../images/inkind.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    vertical-align: middle;
+    text-align: center;
 }
 #GetInvolvedJobs .infoHead {
-    background-image: url(../images/community.png);
+    background-image: url(../images/volunteering.jpg);
+    height: 500px;
+    vertical-align: middle;
+    text-align: center;
 }
 #GetInvolvedMerch .infoHead {
-    background-image: url(../images/community.png);
+    background-image: url(../images/volunteering.jpg);
+    height: 500px;
+    vertical-align: middle;
+    text-align: center;
 }
 
 
