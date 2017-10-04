@@ -918,12 +918,6 @@ box-shadow: #a71d11 0 3px 0px, rgba(0, 0, 0, 0.3) 0 3px 3px;
     text-decoration: none;
 } 
 
-#GetInvolvedVolunteer #VolunteerHead {
-    background-image: url(../images/volunteering.jpg);
-    height: 500px;
-    vertical-align: middle;
-    text-align: center;
-}
 
 .infoHead {
     text-align: center;
@@ -948,7 +942,7 @@ box-shadow: #a71d11 0 3px 0px, rgba(0, 0, 0, 0.3) 0 3px 3px;
     display: none;
 }
 
-#GetInvolvedVolunteer {
+#GetInvolvedVolunteer .infoHead {
     background-image: url(../images/volunteering.jpg);
     height: 500px;
     vertical-align: middle;
