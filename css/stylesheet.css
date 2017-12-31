@@ -421,8 +421,9 @@ box-shadow: #a71d11 0 3px 0px, rgba(0, 0, 0, 0.3) 0 3px 3px;
     font-size: 64px;
     text-align: center;
 }
-
-
+#opportunities .col-sm-6 img {
+    bottom: 0;
+}
 /* footer */
 
 #footer {
@@ -797,6 +798,9 @@ box-shadow: #a71d11 0 3px 0px, rgba(0, 0, 0, 0.3) 0 3px 3px;
 	}
     #header .col-sm-6 a {
         font-size: 72px;
+        text-align: center;
+    }
+    #header .col-lg-3 {
         text-align: center;
     }
     .carousel-inner {
